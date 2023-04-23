@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bar Chart with Data Labels</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
+</head>
+<body>
+  <canvas id="myChart"></canvas>
+  <form>
+    <p>Please provide your identification number to compare your performance with other candidates</p>
+    <label for="dataLabel">Identification Number:</label>
+    <input type="text" id="dataLabel" />
+    <button type="button" onclick="labelData()">Label</button>
+  </form>
+  <script src="populateChart.js"></script>
+</body>
+</html>

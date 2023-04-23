@@ -1,0 +1,14 @@
+{
+    "scraper": {
+        "urlToScrap": "https://www.myrace.gr/race/5770/results.html",
+        "results": {
+            "dataCsvFilePath": "./scraper/results/raceDataResults.csv",
+            "dataCsvHeader": "AA,order,order_sex,id,name,half_distance_time,full_distance_time,",
+            "processedDataPath": "./scraper/results/processedData.json",
+            "chartDataPath": "./scraper/results/chartData.json"
+        }
+    },
+    "server": {
+        "port": 3000
+    }
+}

@@ -1,6 +1,6 @@
-## Race Data scrapper and data visualization
+## Race Data scraper and data visualization
 ___
-A basic webscrapper retrieving and storing race results for runners with some basic data visualization capabilities.
+A basic web scraper retrieving and storing race results for runners with some basic data visualization capabilities.
 
 + scrap data publicly available and store them in csv format.
 + process stored data and prepare them for data visualization.
@@ -15,7 +15,7 @@ Running this requires Nodejs installed and also npm for the required packages.
 ```
 npm i 
 ```
-### Web Scrapper
+### Web Scraper
 ___
 The scraper is based on [puppeteer](https://pptr.dev/) for navigating through the page and [cheerio](https://cheerio.js.org/) for the element selection.
 
@@ -53,4 +53,5 @@ C:/<PATH_TO>/public/index.html
 ```
 ### Licence
 ___
-MIT: https://mit-license.org
+
+[MIT Licence](./LICENSE.md)
